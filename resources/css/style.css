@@ -14,6 +14,16 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 .heading h1,
 .heading p {
   color: white;
@@ -66,4 +76,25 @@ html {
 
 .heading .btn-primary:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+
+/* === Featured Product === */
+
+.featured .row h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  margin-left: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  opacity:  0.7;
+}
+
+.product h4 {
+  color: #399bd1;
 }
