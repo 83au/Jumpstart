@@ -1,0 +1,20 @@
+/* === Font Set & Box Sizing === */
+
+html {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/* === Universal Styles === */
+
+
+/* === Navigation Section === */
+
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover {
+  color: #399bd1;
+}
