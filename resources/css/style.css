@@ -1,8 +1,6 @@
 /* === Font Set & Box Sizing === */
 
 html {
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -11,10 +9,61 @@ html {
 
 /* === Universal Styles === */
 
+html {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.heading h1,
+.heading p {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 
 /* === Navigation Section === */
 
 .navbar-default .navbar-nav .active a,
 .navbar-default .navbar-nav .active a:hover {
   color: #399bd1;
+}
+
+.nav li {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+/* === Jumbotron === */
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+  padding: 11.85rem 0;
+}
+
+.heading {
+  max-width: 51.3rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+}
+
+.heading .btn-primary {
+  min-width: 11.4rem;
+  margin-top: 2.8rem;
+  padding: 1.3rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: all 500ms;
+}
+
+.heading .btn-primary:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.heading .btn-primary:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
